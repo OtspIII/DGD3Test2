@@ -10,6 +10,7 @@ public class DialogueBoxController : MonoBehaviour
     
     public void Imprint(DialogueLine dl)
     {
+        Debug.Log("IMPRINT!");
         string sp = dl.Who.ToString();
         if (dl.Who == Characters.None)
             sp = "";
